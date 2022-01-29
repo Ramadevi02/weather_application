@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-image: url('images/weather_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.form1{
+    padding-top: 10%;
+}
+.searchbox{
+    width: 50%;
+    margin: auto;
+}
+.input:focus{
+    outline: none;
+}
+.results{
+    background-color: rgb(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+}
+.city{
+    font-size: 30px;
+    font-weight: 400;
+}
+.temp{
+    border: 1px solid lightcoral;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px;
+}
+.weather{
+    font-size: 30px;
+    font-weight: 400;
+}
+.btn{
+    background-color: rgb(158, 124, 80);
+    color: white;
+}
